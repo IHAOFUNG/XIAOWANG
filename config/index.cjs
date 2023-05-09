@@ -26,15 +26,6 @@ const USER_CONFIG = {
       useTemplateId: 'w2DLNq7pb6LCZmB45SCEGsnWpE0pj0xW7-d9KORb0BA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-30',
-      festivals: [
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小王同学', year: '1999', date: '03-30',
-        },
-        {
-          type: '节日', name: '第一次约会', year: '2023', date: '03-10',
-        },
-      ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
